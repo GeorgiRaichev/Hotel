@@ -127,7 +127,49 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ActionLogger.cpp" />
+    <ClCompile Include="Apartment.cpp" />
+    <ClCompile Include="ConferenceHall.cpp" />
+    <ClCompile Include="Date.cpp" />
+    <ClCompile Include="DoubleRoom.cpp" />
+    <ClCompile Include="FileManager.cpp" />
+    <ClCompile Include="Guest.cpp" />
+    <ClCompile Include="GuestManager.cpp" />
+    <ClCompile Include="HotelSystem.cpp" />
+    <ClCompile Include="LuxuryRoom.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MyString.cpp" />
+    <ClCompile Include="Reservation.cpp" />
+    <ClCompile Include="ReservationManager.cpp" />
+    <ClCompile Include="Room.cpp" />
+    <ClCompile Include="RoomManager.cpp" />
+    <ClCompile Include="SingleRoom.cpp" />
+    <ClCompile Include="User.cpp" />
+    <ClCompile Include="UserManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ActionLogger.h" />
+    <ClInclude Include="Apartment.h" />
+    <ClInclude Include="ConferenceHall.h" />
+    <ClInclude Include="Date.h" />
+    <ClInclude Include="DoubleRoom.h" />
+    <ClInclude Include="FileManager.h" />
+    <ClInclude Include="Guest.h" />
+    <ClInclude Include="GuestManager.h" />
+    <ClInclude Include="HotelSystem.h" />
+    <ClInclude Include="LuxuryRoom.h" />
+    <ClInclude Include="MyString.h" />
+    <ClInclude Include="MyVector.h" />
+    <ClInclude Include="Reservation.h" />
+    <ClInclude Include="ReservationManager.h" />
+    <ClInclude Include="Room.h" />
+    <ClInclude Include="RoomManager.h" />
+    <ClInclude Include="SingleRoom.h" />
+    <ClInclude Include="User.h" />
+    <ClInclude Include="UserManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MyVector.tpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

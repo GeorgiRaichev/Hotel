@@ -1,6 +1,17 @@
+#include "HotelSystem.h"
 #include <iostream>
 
-int main()
-{
-    std::cout << "Hello World!\n";
+int main() {
+    try {
+        HotelSystem system;
+        system.run();
+    }
+    catch (const char* msg) {
+        std::cout << "Fatal error: " << msg << "\n";
+    }
+    catch (...) {
+        std::cout << "An unexpected fatal error occurred.\n";
+    }
+
+    return 0;
 }
